@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista de Tarefas{% endblock %}
+
+{% block content %}
+<div class="offset-1 col-10 list-div">
+    <h1>Consulta com {{consulta.medico}}</h1>
+    <p>O exame é {{consulta.exame}}</p>
+    <p>Na data {{consulta.data}} às {{consulta.hora}}</p>
+</div>
+{% endblock %}

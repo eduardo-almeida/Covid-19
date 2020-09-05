@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Editando a consulta do dia {{consulta.data}} às {{consulta.hora}}{% endblock %}
+
+{% block content %}
+<div class="offset-1 col-10 list-div">
+    <h1>Editando a consulta do dia {{consulta.data}} às {{consulta.hora}}:</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p}}
+        <input type="submit" class="btn btn-success" value="Editar Consulta">
+    </form>
+</div>
+{% endblock %}
