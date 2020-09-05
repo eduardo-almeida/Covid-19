@@ -7,8 +7,7 @@
 
 # Eduardo Almeida
 <sub>*Data Science Student*</sub>
-
-Trabalhos com trading  
+  
 
 **Background in:** Python | SQL | Machine Learning  
 
