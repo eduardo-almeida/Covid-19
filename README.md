@@ -7,7 +7,12 @@
 
 # Eduardo Almeida
 <sub>*Data Science Student*</sub>
+  Links úteis:
   
+  retorna um json: http://localhost:8000/sendJson/12
+  Obs. infelizmente ele retorna apenas a lista de consultas do usuario logado
+  
+  link para o admin: http://localhost:8000/admin/
 
 
 **Background in:** Python | SQL | Machine Learning  
